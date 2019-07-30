@@ -1,5 +1,6 @@
 # Add  code here!
 def prime?(x)
+   binding.pry 
     if x < 2
         return False
     else
