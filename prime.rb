@@ -3,7 +3,7 @@ def prime?(x)
     if x < 2
         return False
     else
-        for n in (2..x)
+        for n in (2...x).to_a
             if x % n == 0
                return false
               end
