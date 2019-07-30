@@ -1,5 +1,5 @@
 require "pry"
-Add  code here!
+# Add  code here!
 def prime?(x)
    binding.pry 
     if x < 2
