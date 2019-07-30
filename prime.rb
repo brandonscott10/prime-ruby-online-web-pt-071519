@@ -3,7 +3,7 @@ require "pry"
 def prime?(x)
    binding.pry 
     if x < 2
-        return False
+        return false
     else
         for n in (2...x).to_a
             if x % n == 0
