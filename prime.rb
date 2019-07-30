@@ -5,11 +5,11 @@ def prime?(x)
     else
         for n in range(2,x)
             if x % n == 0
-               return False
+               return false
               end
             end
           
-        return True
+        return true
       end
 
 end
